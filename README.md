@@ -350,11 +350,6 @@ git push origin feature/your-feature-name
 - [Bottom-Up and Top-Down Attention](https://arxiv.org/abs/1707.07998)
 - [Image Captioning with Semantic Attention](https://arxiv.org/abs/1502.03044)
 
-## 👥 Team Members
-
-- Member 1 - [Contribution focus]
-- Member 2 - [Contribution focus]
-- Member 3 - [Contribution focus]
 
 ## 📄 License
 
