@@ -171,16 +171,16 @@ results = evaluator.evaluate_batch(references, hypotheses)
 evaluator.print_evaluation_report(results)
 ```
 
-### Expected Metrics
+### Expected Metrics ---- 
 
 | Metric | Score Range | Good Performance |
 |--------|-------------|------------------|
-| BLEU-1 | 0.0 - 1.0   | > 0.65          |
-| BLEU-2 | 0.0 - 1.0   | > 0.45          |
-| BLEU-3 | 0.0 - 1.0   | > 0.30          |
-| BLEU-4 | 0.0 - 1.0   | > 0.20          |
-| METEOR | 0.0 - 1.0   | > 0.25          |
-| ROUGE-L| 0.0 - 1.0   | > 0.50          |
+| BLEU-1 | 0.4394      | > 0.65          |
+| BLEU-2 | 0.1137      | > 0.45          |
+| BLEU-3 | 0.0         | > 0.30          |
+| BLEU-4 | 0.0         | > 0.20          |
+| METEOR | 0.3163      | > 0.25          |
+| ROUGE-L| 0.3238      | > 0.50          |
 
 ## 🎨 Attention Visualization
 
