@@ -1,3 +1,6 @@
+ბოლოს დაააფდეითებულ ნოუთბუქში - ძაან პატარა BLEU და ძაან მიდ ფრედიქშენებს აკეთებს
+
+
 # The Visual Storyteller - Image Captioning Project
 
 A deep learning system that generates natural language descriptions from images using state-of-the-art neural architectures.
