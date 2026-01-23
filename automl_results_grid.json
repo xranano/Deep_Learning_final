@@ -1,0 +1,245 @@
+[
+    {
+        "trial": 1,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 256,
+            "experiment_name": "AutoML_Trial_1_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.548437067842859,
+            "best_bleu": 0.07124807685613632,
+            "experiment_dir": "experiments\\2026-01-22_15-18-40_AutoML_Trial_1_Adam_LSTM"
+        },
+        "score": 0.07124807685613632,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 2,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 512,
+            "experiment_name": "AutoML_Trial_2_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.5641943948475396,
+            "best_bleu": 0.07195563614368439,
+            "experiment_dir": "experiments\\2026-01-22_15-43-48_AutoML_Trial_2_Adam_LSTM"
+        },
+        "score": 0.07195563614368439,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 3,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 256,
+            "experiment_name": "AutoML_Trial_3_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.528790959223049,
+            "best_bleu": 0.06885022670030594,
+            "experiment_dir": "experiments\\2026-01-22_16-09-35_AutoML_Trial_3_Adam_LSTM"
+        },
+        "score": 0.06885022670030594,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 4,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 512,
+            "experiment_name": "AutoML_Trial_4_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.525698088285491,
+            "best_bleu": 0.07609143853187561,
+            "experiment_dir": "experiments\\2026-01-22_16-32-42_AutoML_Trial_4_Adam_LSTM"
+        },
+        "score": 0.07609143853187561,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 5,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 64,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 256,
+            "experiment_name": "AutoML_Trial_5_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.5830099433660507,
+            "best_bleu": 0.06748442351818085,
+            "experiment_dir": "experiments\\2026-01-22_16-54-44_AutoML_Trial_5_Adam_LSTM"
+        },
+        "score": 0.06748442351818085,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 6,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 64,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 512,
+            "experiment_name": "AutoML_Trial_6_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.5887573175132275,
+            "best_bleu": 0.06845700740814209,
+            "experiment_dir": "experiments\\2026-01-22_17-16-41_AutoML_Trial_6_Adam_LSTM"
+        },
+        "score": 0.06845700740814209,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 7,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 64,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 256,
+            "experiment_name": "AutoML_Trial_7_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.5626578368246555,
+            "best_bleu": 0.06852175295352936,
+            "experiment_dir": "experiments\\2026-01-22_17-39-50_AutoML_Trial_7_Adam_LSTM"
+        },
+        "score": 0.06852175295352936,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 8,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 64,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 512,
+            "experiment_name": "AutoML_Trial_8_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.5500597432255745,
+            "best_bleu": 0.07130122929811478,
+            "experiment_dir": "experiments\\2026-01-22_18-04-47_AutoML_Trial_8_Adam_LSTM"
+        },
+        "score": 0.07130122929811478,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 9,
+        "config": {
+            "learning_rate": 0.0001,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "num_layers": 1,
+            "dropout": 0.5,
+            "rnn_type": "LSTM",
+            "optimizer": "Adam",
+            "model_type": "attention",
+            "attention_dim": 256,
+            "experiment_name": "AutoML_Trial_9_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.6059713917454395,
+            "best_bleu": 0.07344506680965424,
+            "experiment_dir": "experiments\\2026-01-22_18-28-37_AutoML_Trial_9_Adam_LSTM"
+        },
+        "score": 0.07344506680965424,
+        "metric": "BLEU"
+    }
+]

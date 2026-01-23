@@ -1,0 +1,25 @@
+{
+    "experiment_name": "AutoML_Trial_24_RMSprop_GRU",
+    "seed": 42,
+    "learning_rate": 0.0003,
+    "batch_size": 32,
+    "embed_size": 512,
+    "hidden_size": 512,
+    "num_layers": 1,
+    "num_epochs": 50,
+    "save_model": false,
+    "num_workers": 6,
+    "image_size": 224,
+    "resize_dim": 232,
+    "train_cnn": false,
+    "bleu_every_n_epochs": 5,
+    "load_model": false,
+    "checkpoint_path": "experiments/2026-01-17_19-04-17_ResNet101_LSTM_v1/weights/checkpoint_epoch_3.pth.tar",
+    "optimizer": "RMSprop",
+    "rnn_type": "GRU",
+    "patience": 3,
+    "system": {
+        "device_fallback_enabled": true
+    },
+    "tqdm_disable": true
+}

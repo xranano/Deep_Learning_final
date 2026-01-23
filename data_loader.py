@@ -85,10 +85,30 @@ class MyCollate:
         return imgs, targets
 
 
+def get_transforms(train=True):
+    if train:
+        return transforms.Compose([
+            transforms.Resize(256),
+            transforms.RandomCrop(224),
+            transforms.RandomHorizontalFlip(),
+            transforms.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1),
+            transforms.ToTensor(),
+            transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+        ])
+    else:
+        return transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
+        ])
+
 def get_loaders(
     root_folder,
     annotation_file,
-    transform,
+    transform=None,
+    train_transform=None,
+    val_transform=None,
     batch_size=32,
     num_workers=2,
     shuffle=True,
@@ -97,6 +117,15 @@ def get_loaders(
     val_size=0.1,
     freq_threshold=5
 ):
+    # Handle transform arguments
+    if train_transform is None:
+        train_transform = transform
+        
+    if val_transform is None:
+        val_transform = transform
+        
+    # If still None, we could default to get_transforms() but let's assume caller provides
+    
     all_imgs = []
     all_captions = []
     
@@ -142,9 +171,10 @@ def get_loaders(
     vocab = Vocabulary(freq_threshold)
     vocab.build_vocabulary(train_caps)
     
-    train_dataset = FlickrDataset(root_folder, train_imgs, train_caps, vocab, transform=transform)
-    val_dataset = FlickrDataset(root_folder, val_imgs, val_caps, vocab, transform=transform)
-    test_dataset = FlickrDataset(root_folder, test_imgs, test_caps, vocab, transform=transform)
+    # Use specific transforms
+    train_dataset = FlickrDataset(root_folder, train_imgs, train_caps, vocab, transform=train_transform)
+    val_dataset = FlickrDataset(root_folder, val_imgs, val_caps, vocab, transform=val_transform)
+    test_dataset = FlickrDataset(root_folder, test_imgs, test_caps, vocab, transform=val_transform)
     
     pad_idx = vocab.stoi["<PAD>"]
 

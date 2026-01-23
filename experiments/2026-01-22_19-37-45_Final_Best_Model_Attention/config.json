@@ -1,0 +1,27 @@
+{
+    "experiment_name": "Final_Best_Model_Attention",
+    "seed": 42,
+    "learning_rate": 0.0003,
+    "batch_size": 32,
+    "embed_size": 512,
+    "hidden_size": 512,
+    "num_layers": 1,
+    "num_epochs": 20,
+    "save_model": true,
+    "num_workers": 6,
+    "image_size": 224,
+    "resize_dim": 232,
+    "train_cnn": false,
+    "bleu_every_n_epochs": 1,
+    "load_model": true,
+    "checkpoint_path": "experiments\\2026-01-22_19-31-53_Final_Best_Model_Attention\\weights\\checkpoint_epoch_0.pth.tar",
+    "optimizer": "Adam",
+    "rnn_type": "LSTM",
+    "patience": 5,
+    "system": {
+        "device_fallback_enabled": true
+    },
+    "dropout": 0.5,
+    "model_type": "attention",
+    "attention_dim": 512
+}

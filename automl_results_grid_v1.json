@@ -1,0 +1,600 @@
+[
+    {
+        "trial": 1,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "Adam",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_1_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.4263376157114824,
+            "best_bleu": 0.05887328088283539,
+            "experiment_dir": "experiments\\2026-01-22_05-52-16_AutoML_Trial_1_Adam_LSTM"
+        },
+        "score": 0.05887328088283539,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 2,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "Adam",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_2_Adam_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.4278862588987575,
+            "best_bleu": 0.056355658918619156,
+            "experiment_dir": "experiments\\2026-01-22_06-04-35_AutoML_Trial_2_Adam_GRU"
+        },
+        "score": 0.056355658918619156,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 3,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "Adagrad",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_3_Adagrad_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.4957635346360094,
+            "best_bleu": 0.02536034770309925,
+            "experiment_dir": "experiments\\2026-01-22_06-15-53_AutoML_Trial_3_Adagrad_LSTM"
+        },
+        "score": 0.02536034770309925,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 4,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "Adagrad",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_4_Adagrad_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.386007059277512,
+            "best_bleu": 0.023387402296066284,
+            "experiment_dir": "experiments\\2026-01-22_06-56-09_AutoML_Trial_4_Adagrad_GRU"
+        },
+        "score": 0.023387402296066284,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 5,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "RMSprop",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_5_RMSprop_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.43437001273388,
+            "best_bleu": 0.059555601328611374,
+            "experiment_dir": "experiments\\2026-01-22_07-36-23_AutoML_Trial_5_RMSprop_LSTM"
+        },
+        "score": 0.059555601328611374,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 6,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "RMSprop",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_6_RMSprop_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.451677722255076,
+            "best_bleu": 0.050565604120492935,
+            "experiment_dir": "experiments\\2026-01-22_07-47-40_AutoML_Trial_6_RMSprop_GRU"
+        },
+        "score": 0.050565604120492935,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 7,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "optimizer": "Adam",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_7_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3879089787250427,
+            "best_bleu": 0.056466925889253616,
+            "experiment_dir": "experiments\\2026-01-22_07-58-56_AutoML_Trial_7_Adam_LSTM"
+        },
+        "score": 0.056466925889253616,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 8,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "optimizer": "Adam",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_8_Adam_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3808126327559704,
+            "best_bleu": 0.058545228093862534,
+            "experiment_dir": "experiments\\2026-01-22_08-08-03_AutoML_Trial_8_Adam_GRU"
+        },
+        "score": 0.058545228093862534,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 9,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "optimizer": "Adagrad",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_9_Adagrad_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.223010793445617,
+            "best_bleu": 0.029315391555428505,
+            "experiment_dir": "experiments\\2026-01-22_08-16-26_AutoML_Trial_9_Adagrad_LSTM"
+        },
+        "score": 0.029315391555428505,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 10,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "optimizer": "Adagrad",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_10_Adagrad_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.1627520613782987,
+            "best_bleu": 0.02775992825627327,
+            "experiment_dir": "experiments\\2026-01-22_08-57-02_AutoML_Trial_10_Adagrad_GRU"
+        },
+        "score": 0.02775992825627327,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 11,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "optimizer": "RMSprop",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_11_RMSprop_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.406544042384531,
+            "best_bleu": 0.05513487383723259,
+            "experiment_dir": "experiments\\2026-01-22_09-37-25_AutoML_Trial_11_RMSprop_LSTM"
+        },
+        "score": 0.05513487383723259,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 12,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 256,
+            "hidden_size": 512,
+            "optimizer": "RMSprop",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_12_RMSprop_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3930711079770184,
+            "best_bleu": 0.06207302585244179,
+            "experiment_dir": "experiments\\2026-01-22_09-47-15_AutoML_Trial_12_RMSprop_GRU"
+        },
+        "score": 0.06207302585244179,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 13,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 256,
+            "optimizer": "Adam",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_13_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.434331927712508,
+            "best_bleu": 0.05293312668800354,
+            "experiment_dir": "experiments\\2026-01-22_09-56-19_AutoML_Trial_13_Adam_LSTM"
+        },
+        "score": 0.05293312668800354,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 14,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 256,
+            "optimizer": "Adam",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_14_Adam_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.4252754158861056,
+            "best_bleu": 0.05439312011003494,
+            "experiment_dir": "experiments\\2026-01-22_10-07-36_AutoML_Trial_14_Adam_GRU"
+        },
+        "score": 0.05439312011003494,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 15,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 256,
+            "optimizer": "Adagrad",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_15_Adagrad_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.389516347975243,
+            "best_bleu": 0.02536034770309925,
+            "experiment_dir": "experiments\\2026-01-22_10-18-07_AutoML_Trial_15_Adagrad_LSTM"
+        },
+        "score": 0.02536034770309925,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 16,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 256,
+            "optimizer": "Adagrad",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_16_Adagrad_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.3064368597165807,
+            "best_bleu": 0.022865964099764824,
+            "experiment_dir": "experiments\\2026-01-22_10-58-27_AutoML_Trial_16_Adagrad_GRU"
+        },
+        "score": 0.022865964099764824,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 17,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 256,
+            "optimizer": "RMSprop",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_17_RMSprop_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.4450986404118575,
+            "best_bleu": 0.054359618574380875,
+            "experiment_dir": "experiments\\2026-01-22_11-38-40_AutoML_Trial_17_RMSprop_LSTM"
+        },
+        "score": 0.054359618574380875,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 18,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 256,
+            "optimizer": "RMSprop",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_18_RMSprop_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.4523372274684156,
+            "best_bleu": 0.05587374418973923,
+            "experiment_dir": "experiments\\2026-01-22_11-49-12_AutoML_Trial_18_RMSprop_GRU"
+        },
+        "score": 0.05587374418973923,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 19,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "optimizer": "Adam",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_19_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3827049910552858,
+            "best_bleu": 0.05836784839630127,
+            "experiment_dir": "experiments\\2026-01-22_11-59-44_AutoML_Trial_19_Adam_LSTM"
+        },
+        "score": 0.05836784839630127,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 20,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "optimizer": "Adam",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_20_Adam_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3743859651520496,
+            "best_bleu": 0.056104760617017746,
+            "experiment_dir": "experiments\\2026-01-22_12-08-08_AutoML_Trial_20_Adam_GRU"
+        },
+        "score": 0.056104760617017746,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 21,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "optimizer": "Adagrad",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_21_Adagrad_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.0992027568066214,
+            "best_bleu": 0.028911007568240166,
+            "experiment_dir": "experiments\\2026-01-22_12-15-30_AutoML_Trial_21_Adagrad_LSTM"
+        },
+        "score": 0.028911007568240166,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 22,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "optimizer": "Adagrad",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_22_Adagrad_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 3.0531593814609557,
+            "best_bleu": 0.029673485085368156,
+            "experiment_dir": "experiments\\2026-01-22_12-56-14_AutoML_Trial_22_Adagrad_GRU"
+        },
+        "score": 0.029673485085368156,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 23,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "optimizer": "RMSprop",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_23_RMSprop_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3965687244895877,
+            "best_bleu": 0.05488956719636917,
+            "experiment_dir": "experiments\\2026-01-22_13-36-52_AutoML_Trial_23_RMSprop_LSTM"
+        },
+        "score": 0.05488956719636917,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 24,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 32,
+            "embed_size": 512,
+            "hidden_size": 512,
+            "optimizer": "RMSprop",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_24_RMSprop_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.3851496544409923,
+            "best_bleu": 0.05730016529560089,
+            "experiment_dir": "experiments\\2026-01-22_13-44-13_AutoML_Trial_24_RMSprop_GRU"
+        },
+        "score": 0.05730016529560089,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 25,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 64,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "Adam",
+            "rnn_type": "LSTM",
+            "experiment_name": "AutoML_Trial_25_Adam_LSTM",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.448802974075079,
+            "best_bleu": 0.050945576280355453,
+            "experiment_dir": "experiments\\2026-01-22_13-51-33_AutoML_Trial_25_Adam_LSTM"
+        },
+        "score": 0.050945576280355453,
+        "metric": "BLEU"
+    },
+    {
+        "trial": 26,
+        "config": {
+            "learning_rate": 0.0003,
+            "batch_size": 64,
+            "embed_size": 256,
+            "hidden_size": 256,
+            "optimizer": "Adam",
+            "rnn_type": "GRU",
+            "experiment_name": "AutoML_Trial_26_Adam_GRU",
+            "num_epochs": 50,
+            "patience": 3,
+            "save_model": false,
+            "tqdm_disable": true
+        },
+        "result": {
+            "best_val_loss": 2.4506062902510166,
+            "best_bleu": 0.04956700652837753,
+            "experiment_dir": "experiments\\2026-01-22_14-09-11_AutoML_Trial_26_Adam_GRU"
+        },
+        "score": 0.04956700652837753,
+        "metric": "BLEU"
+    }
+]
