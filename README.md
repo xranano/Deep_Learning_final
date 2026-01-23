@@ -452,6 +452,5 @@ This project is for educational purposes as part of a Deep Learning course final
 **Project Status:** In Development  
 **Last Updated:** January 2026  
 **Course:** Deep Learning Final Project  
-**Institution:** [Your Institution Name]
 
 For questions or issues, please open an issue on GitHub or contact the project maintainers.
